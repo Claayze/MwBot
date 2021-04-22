@@ -25,9 +25,9 @@ function gotmessage(msg)
     if(msg.channel.id == DISCORD_CHANNEL_ID)
     {
 
-        if (msg.content === 'ping') 
+        if (msg.content === 'Hey') 
         {
-            msg.reply('Pong!');
+            msg.reply('Næ');
         }
         
     }
