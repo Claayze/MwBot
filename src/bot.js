@@ -21,7 +21,11 @@ client.on('ready', () => {
 client.on('message',gotmessage)
 function gotmessage(msg)
 {
-    if(msg.author.bot) return;
+  if(msg.author.bot) return;
+  if(msg.author.id == "363298280836431873")
+  {
+      msg.reply("https://tenor.com/view/liquid-dirty-mikkel-mess-pour-gif-17303353")
+  }
     if(msg.channel.id == DISCORD_CHANNEL_ID)
     {
 
